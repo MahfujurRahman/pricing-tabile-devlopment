@@ -1,0 +1,135 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus { outline: 0 solid }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+
+.pricing-table {
+    padding-top: 50px;
+  }
+
+  .singel-pricing-table {
+    text-align: center;
+    color: #6e7d8c;
+    line-height: 40px;
+    border: 1px solid #f4f7fa;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .box-header {
+    position: relative;
+    padding: 25px;
+  }
+
+  .box-header:after {
+    position: absolute;
+    height: 2px;
+    width: 80%;
+    bottom: 0;
+    content: "";
+    background-color: #f1f5fa;
+    left: 35px;
+  }
+
+  .box-header h1 {
+    font-size: 25px;
+    font-weight: normal;
+  }
+
+  .box-header p {
+    font-size: 60px;
+    color: #00aaf7;
+    padding-top: 45px;
+    font-weight: 200;
+  }
+
+  .box-header p span {
+    display: block;
+    font-size: 40%;
+    padding-top: 20px;
+    color: #8e9daa;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    padding-top: 30px;
+  }
+
+  .menu li {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .button {
+    background-color: #00aaf7;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .active h1 span {
+    display: block;
+    font-size: 70%;
+    padding-top: 20px;
+    color: #56b50c;
+  }
+
+  .active {
+    position: relative;
+    box-shadow: 0 0 40px #eee;
+  }
+
+  .active:before {
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: #56b50c;
+    border-radius: 0 0 0 0;
+  }
+
+  .last {
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    color: #6e7d8c;
+}
+
+.button:hover {
+    background-color: #333;
+    color: #fff;
+}
